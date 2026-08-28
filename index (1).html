@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QVBL LEAGUE</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #07111f;
+    color: white;
+}
+
+.header {
+    text-align: center;
+    padding: 35px 15px;
+    background: linear-gradient(135deg, #0d2742, #123c5c);
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 38px;
+    font-weight: 900;
+}
+
+.header p {
+    margin: 10px 0 0;
+    color: #b8c9d9;
+}
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 12px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title h2 {
+    margin: 0;
+    font-size: 25px;
+}
+
+.title p {
+    color: #91a5b8;
+}
+
+.table-box {
+    background: #0d1c2d;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 10px 35px rgba(0,0,0,0.4);
+}
+
+.table-scroll {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 650px;
+}
+
+th {
+    background: #142b43;
+    color: #9fb1c3;
+    padding: 15px 10px;
+    font-size: 13px;
+}
+
+td {
+    padding: 16px 10px;
+    text-align: center;
+    border-top: 1px solid #ffffff12;
+    font-weight: bold;
+}
+
+td:nth-child(2) {
+    text-align: left;
+}
+
+.club {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #ffffff12;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.points {
+    font-size: 20px;
+}
+
+.first {
+    background: rgba(255, 215, 0, 0.08);
+}
+
+.second {
+    background: rgba(192, 192, 192, 0.06);
+}
+
+.third {
+    background: rgba(205, 127, 50, 0.06);
+}
+
+.footer {
+    text-align: center;
+    color: #71879c;
+    padding: 30px 10px;
+    font-size: 13px;
+}
+
+@media (max-width: 600px) {
+    .header h1 {
+        font-size: 30px;
+    }
+
+    .title h2 {
+        font-size: 21px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+    <h1>🏆 QVBL LEAGUE</h1>
+    <p>Ресми турнирлік кесте</p>
+</div>
+
+<div class="container">
+
+    <div class="title">
+        <h2>Турнирлік кесте</h2>
+        <p>8-турдан кейінгі жағдай</p>
+    </div>
+
+    <div class="table-box">
+        <div class="table-scroll">
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Клуб</th>
+                        <th>О</th>
+                        <th>Ж</th>
+                        <th>Т</th>
+                        <th>Ұ</th>
+                        <th>Ұпай</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr class="first">
+                        <td>🥇</td>
+                        <td>
+                            <div class="club">
+                                <span class="logo">🛢️</span>
+                                МҰНАЙШЫ
+                            </div>
+                        </td>
+                        <td>8</td>
+                        <td>—</td>
+                        <td>—</td>
+                        <td>—</td>
+                        <td class="points">19</td>
+                    </tr>
+
+                    <tr class="second">
+                        <td>🥈</td>
+                        <td>
+                            <div class="club">
+                                <span class="logo">🔷</span>
+                                АСТАНА
+                            </div>
+                        </td>
+                        <td>8</td>
+                        <td>—</td>
+                        <td>—</td>
+                        <td>—</td>
+                        <td class="points">16</td>
+                    </tr>
+
+                    <tr class="third">
+                        <td>🥉</td>
+                        <td>
+                            <div class="club">
+                                <span class="logo">⚪</span>
+                                АҚТАН
+                            </div>
+                        </td>
+                        <td>8</td>
+                        <td>—</td>
+                        <td>—</td>
+                        <td>—</td>
+                        <td class="points">13</td>
+                    </tr>
+
+                    <tr>
+                        <td>4</td>
+                        <td>
+                            <div class="club">
+                                <span class="logo">🐺</span>
+                                КӨКЖАЛ
+                            </div>
+                        </td>
+                        <td>8</td>
+                        <td>—</td>
+                        <td>—</td>
+                        <td>—</td>
+                        <td class="points">11</td>
+                    </tr>
+
+                    <tr>
+                        <td>5</td>
+                        <td>
+                            <div class="club">
+                                <span class="logo">🏆</span>
+                                АБЫРОЙ
+                            </div>
+                        </td>
+                        <td>8</td>
+                        <td>—</td>
+                        <td>—</td>
+                        <td>—</td>
+                        <td class="points">11</td>
+                    </tr>
+
+                    <tr>
+                        <td>6</td>
+                        <td>
+                            <div class="club">
+                                <span class="logo">🟡</span>
+                                ҚАЙРАТ
+                            </div>
+                        </td>
+                        <td>8</td>
+                        <td>—</td>
+                        <td>—</td>
+                        <td>—</td>
+                        <td class="points">11</td>
+                    </tr>
+
+                    <tr>
+                        <td>7</td>
+                        <td>
+                            <div class="club">
+                                <span class="logo">🟢</span>
+                                ӘДІЛ
+                            </div>
+                        </td>
+                        <td>8</td>
+                        <td>—</td>
+                        <td>—</td>
+                        <td>—</td>
+                        <td class="points">5</td>
+                    </tr>
+
+                    <tr>
+                        <td>8</td>
+                        <td>
+                            <div class="club">
+                                <span class="logo">🔵</span>
+                                ТҰРАН
+                            </div>
+                        </td>
+                        <td>8</td>
+                        <td>—</td>
+                        <td>—</td>
+                        <td>—</td>
+                        <td class="points">2</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+    </div>
+
+</div>
+
+<div class="footer">
+    QVBL LEAGUE © 2026
+</div>
+
+</body>
+</html>
